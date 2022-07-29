@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 807994e0bf6790045844832e22765049, type: 3}
+  m_Name: Treasure
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 5870431945049769601, guid: 7920b39bb117994449d5e7eff551246c, type: 3}
+  - {fileID: 755528971501637780, guid: 8a2a7c5ac5859304ba1af6709e342432, type: 3}
+  - {fileID: 2719690137227625857, guid: 682a7f49bf7896246ae93d38726a147d, type: 3}
+  - {fileID: 9112869444201890838, guid: 3aa4adc6e7680e2438019a5c14b67cc3, type: 3}

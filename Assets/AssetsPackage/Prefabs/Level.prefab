@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4761000592928714329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4761000592928714331}
+  - component: {fileID: 4761000592928714330}
+  - component: {fileID: 4761000592928715172}
+  - component: {fileID: 5292878825326883139}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4761000592928714331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761000592928714329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4761000592928714330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761000592928714329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0c573441f1b6b40a7e73de7c02d8e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomPrefab: {fileID: 1782190724, guid: 5a197377772135e46a6547205448f11a, type: 3}
+  roomNum: 5
+  currentRoom: {fileID: 0}
+  pools: {fileID: 0}
+  manager: {fileID: 0}
+  player: {fileID: 0}
+--- !u!114 &4761000592928715172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761000592928714329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9ac75471730e149a1dddf06e36e010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultItem: {fileID: 8353762799603694602, guid: fb478f95cb06613418b3b1297d7b6146,
+    type: 3}
+  TreasureRoomItemPool: {fileID: 11400000, guid: c549b791b68452d4e983e940f02792fc,
+    type: 2}
+  BossRoomItemPool: {fileID: 11400000, guid: acf6801ff8eb6c54da66d1bffb2b6ec8, type: 2}
+  ShopItemPool: {fileID: 11400000, guid: 77cb143dd3cf43b44bc12a1e0ae998f6, type: 2}
+  bossRoomClearingReward: {fileID: 4220042123601709987, guid: ac6247d00193ddc44a59e2609a749f47,
+    type: 3}
+  normalRoomClearingReward: {fileID: 8892665028506414572, guid: c23a6b6b5982cdc499bdcee6842af493,
+    type: 3}
+  pickupGoodsTable: {fileID: 2773476061788829921, guid: a379933f612278a448b841604b0ec729,
+    type: 3}
+  minionTable: {fileID: 2773476061788829921, guid: a611857ebc1128e4c805a65549a1e82e,
+    type: 3}
+  bossTable: {fileID: 2773476061788829921, guid: 5f64bed9edff23e498d72c1fcc096410,
+    type: 3}
+--- !u!114 &5292878825326883139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761000592928714329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e75929e2afb86b4cbd8089240302b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
